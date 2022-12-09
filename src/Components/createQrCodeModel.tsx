@@ -95,8 +95,8 @@ const CreateQrCodeModel: React.FC = () => {
                                 />
                                 <ErrorMessage className="errors" name="imageFormat" /><br />
 
+                                <Button type="submit" id='active'>Save</Button>
                                 <Button type="reset">Cancel</Button>
-                                <Button type="submit">Save</Button>
 
                             </Form>
                         </div>

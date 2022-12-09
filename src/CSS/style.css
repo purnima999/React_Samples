@@ -32,11 +32,11 @@ body {
     margin: 2rem;
 }
 
-.model-container span{
+.model-container span {
     color: red;
 }
 
-.model-container span::after{
+.model-container span::after {
     content: " ";
 }
 
@@ -75,8 +75,8 @@ Button {
     cursor: pointer;
 }
 
-Button .active {
-    background-color: rgb(37, 37, 119);
+#active {
+    background-color: rgb(92, 92, 163);
     color: white;
 }
 
@@ -87,7 +87,7 @@ Button .active {
     }
 }
 
-@media(max-width: 1172px){
+@media(max-width: 1172px) {
     body {
         background-color: black;
         margin: 3rem 10rem 0rem 10rem;
