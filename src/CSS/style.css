@@ -1,0 +1,111 @@
+body {
+    background-color: white;
+    margin: 3rem 25rem 0rem 25rem;
+}
+
+.container-card {
+    background-color: white;
+    width: auto;
+    height: 780px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.conatine-card-model-header {
+    margin: 0px;
+}
+
+.conatine-card-model-header h5 {
+    font-size: 1.6rem;
+    text-align: left;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+}
+
+.conatine-card-model-header h5::after {
+    /* content: "\00d7"; */
+    align-content: right;
+}
+
+.model-container {
+    text-align: left;
+    margin: 2rem;
+}
+
+.model-container span{
+    color: red;
+}
+
+.model-container span::after{
+    content: " ";
+}
+
+.model-container Label {
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: block;
+}
+
+.input {
+    margin: 1rem 0rem 1rem 0rem;
+    background-color: rgb(239, 239, 239);
+    padding: 1rem;
+    border: 0.1rem solid rgb(199, 199, 199);
+    width: 80%;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+.errors {
+    color: red;
+    font-size: small;
+}
+
+Button {
+    width: 12%;
+    height: 20%;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: bold;
+    float: right;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid rgb(199, 199, 199);
+    background-color: rgb(239, 239, 239);
+    cursor: pointer;
+}
+
+Button .active {
+    background-color: rgb(37, 37, 119);
+    color: white;
+}
+
+@media(min-width: 1200px),
+(max-width: 1200px) {
+    Button {
+        width: 23%;
+    }
+}
+
+@media(max-width: 1172px){
+    body {
+        background-color: black;
+        margin: 3rem 10rem 0rem 10rem;
+    }
+}
+
+@media (max-width: 776px) {
+    body {
+        background-color: black;
+        margin: 3rem 5rem 0rem 5rem;
+    }
+}
+
+@media (max-width: 556px) {
+    body {
+        background-color: black;
+        margin: 3rem 0rem 0rem 0rem;
+    }
+}
+
+/* @media(max-width: ) */
