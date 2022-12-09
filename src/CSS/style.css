@@ -56,11 +56,6 @@ body {
     border-radius: 0.5rem;
 }
 
-.errors {
-    color: red;
-    font-size: small;
-}
-
 Button {
     width: 12%;
     height: 20%;

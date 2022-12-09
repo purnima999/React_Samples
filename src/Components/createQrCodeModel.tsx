@@ -60,8 +60,8 @@ const CreateQrCodeModel: React.FC = () => {
                         <div className="model-container">
                             <Form>
                                 <Label><span>*</span>QR Code Name</Label>
-                                <Field className="input" name="qrCodeName" type="text" placeholder="Enter WhatsApp Message Template Name" />
-                                <ErrorMessage className="errors" name="qrCodeName" /><br />
+                                <Field className="input" name="qrCodeName" type="text" placeholder="Enter WhatsApp Message Template Name" /><br/>
+                                <ErrorMessage className="errors" name="qrCodeName"/>
                                 <Label><span>*</span>Master Phone Number</Label>
                                 <Select
                                     className="input"
@@ -74,11 +74,11 @@ const CreateQrCodeModel: React.FC = () => {
                                     isSearchable={masterMockNumber?.length > 5 ? true : false}
                                     closeMenuOnSelect={false}
                                     closeMenuOnScroll={false}
-                                />
-                                <ErrorMessage className="errors" name="masterNo" /><br />
+                                /><br />
+                                <ErrorMessage className="errors" name="masterNo" />
                                 <Label><span>*</span>Prefilled Message</Label>
-                                <Field className="input" name="message" as="textarea" placeholder="Enter the Prefilled Message Text"/>
-                                <ErrorMessage className="errors" name="message" /><br />
+                                <Field className="input" name="message" as="textarea" placeholder="Enter the Prefilled Message Text"/><br />
+                                <ErrorMessage className="errors" name="message" />
                                 <Label>Image Format</Label>
                                 <Select
                                     className="input"
@@ -92,8 +92,8 @@ const CreateQrCodeModel: React.FC = () => {
                                     isSearchable={masterMockNumber?.length > 5 ? true : false}
                                     closeMenuOnSelect={false}
                                     closeMenuOnScroll={false}
-                                />
-                                <ErrorMessage className="errors" name="imageFormat" /><br />
+                                /><br />
+                                <ErrorMessage className="errors" name="imageFormat" />
 
                                 <Button type="submit" id='active'>Save</Button>
                                 <Button type="reset">Cancel</Button>
