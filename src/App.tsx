@@ -6,16 +6,17 @@ import FileFormat from './Components/fileFormat';
 import DemoFiles from './Components/files';
 import './i18n';
 import Main from './Components/translationUsingi18n';
-
+import { RouteCmp } from './routes';
 
 
 function App() {
   return (
     <div className="App">
-      <CreateQrCodeModel />
+      {/* <CreateQrCodeModel />
       <FileFormat/>
-      <DemoFiles/>
-      <Main/>
+      <DemoFiles/> */}
+      <RouteCmp />
+
     </div>
   );
 }
